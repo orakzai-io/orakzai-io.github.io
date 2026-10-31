@@ -683,13 +683,21 @@ export function initChat() {
   function offlineAnswer(query) {
     return (
       '<em>// RAG BACKEND OFFLINE // answering from the local index.</em><br>' +
-      'Shahsawar Orakzai is a Full-Stack AI Engineer and Computer Science undergraduate at UAP ' +
-      'with a 4.0 CGPA and dual Harvard CS50x/CS50P credentials. He has delivered 5+ production ' +
-      'AI applications, including <strong>REDNOTE</strong> (vector RAG over 10,000+ chunks), ' +
-      'an async scraping intelligence pipeline, and <strong>VaultGuard</strong>, a zero-knowledge ' +
-      'credential vault. He is also a former MINDGIGS Python intern, a 10-year National Swimmer, ' +
-      'and a competitive chess player.<br><br>Once the backend is reachable I can answer in detail. ' +
-      'Please try again in a moment.'
+      'Shahsawar Orakzai is a Full-Stack AI Engineer specializing in end-to-end production systems, ' +
+      'from RAG architectures and autonomous AI Agents to WebGL frontends and containerized backends. ' +
+      'He is a Computer Science undergraduate at University of Agriculture, Peshawar (UAP) ' +
+      'with a 4.0 CGPA and dual Harvard CS50x/CS50P credentials.<br><br>' +
+      'Currently self-employed on <strong>Freelancer.com</strong> (Feb 2026 – Present), delivering ' +
+      'enterprise RAG assistants with FastAPI/pgvector backends and autonomous agentic workflows ' +
+      'using Hermes and function-calling architectures.<br><br>' +
+      'Notable work includes <strong>BOTRON</strong> — a 3D WebGL portfolio with a RAG chatbot ' +
+      'using FastEmbed vector search over 16 knowledge chunks, minimum-similarity floor, ' +
+      '3-model Groq failover, FastAPI Cloud backend, and Supabase analytics. Pre-launch content ' +
+      'reached 50,000+ impressions and 500+ likes on LinkedIn.<br><br>' +
+      'He also built <strong>REDNOTE</strong> (document retrieval assistant, sub-250ms over 10k+ chunks), ' +
+      'an <strong>Async Web Scraper</strong> using curl_cffi to bypass Cloudflare, and is a former ' +
+      'MINDGIGS Python Intern and Pakistan Swimming Federation Technical Operations Lead.<br><br>' +
+      'Once the backend is reachable I can answer in detail. Please try again in a moment.'
     );
   }
 

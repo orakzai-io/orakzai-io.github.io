@@ -21,7 +21,7 @@ if (
 }
 
 export const SKILLS_DATA = [
-  // AI & LLM (9)
+  // AI & LLM (12)
   {
     id: 'openai',
     name: 'OpenAI API',
@@ -103,8 +103,35 @@ export const SKILLS_DATA = [
     icon: '🔄',
     desc: 'Workflow event pipelines, webhook triggers & autonomous ETL flows',
   },
+  {
+    id: 'hermes',
+    name: 'Hermes',
+    category: 'ai',
+    catLabel: 'AI & LLM',
+    level: 90,
+    icon: '📨',
+    desc: 'Agentic workflow orchestration & persistent memory for autonomous agents',
+  },
+  {
+    id: 'fastembed',
+    name: 'FastEmbed',
+    category: 'ai',
+    catLabel: 'AI & LLM',
+    level: 92,
+    icon: '🔢',
+    desc: 'Lightweight embedding models for semantic search & vector retrieval',
+  },
+  {
+    id: 'oss-llms',
+    name: 'Open-Source LLMs',
+    category: 'ai',
+    catLabel: 'AI & LLM',
+    level: 85,
+    icon: '🌍',
+    desc: 'Self-hosted open-weight models & local inference deployment',
+  },
 
-  // Backend & Data (7)
+  // Backend & Data (11)
   {
     id: 'python',
     name: 'Python',
@@ -168,8 +195,44 @@ export const SKILLS_DATA = [
     icon: '⚙️',
     desc: 'Systems programming, memory management & algorithmic foundations',
   },
+  {
+    id: 'supabase',
+    name: 'Supabase',
+    category: 'backend',
+    catLabel: 'Backend & Data',
+    level: 85,
+    icon: '☁️',
+    desc: 'Backend-as-a-Service, real-time subscriptions & Postgres database',
+  },
+  {
+    id: 'neon',
+    name: 'Neon PostgreSQL',
+    category: 'backend',
+    catLabel: 'Backend & Data',
+    level: 82,
+    icon: '💜',
+    desc: 'Serverless Postgres with branching & autoscaling storage',
+  },
+  {
+    id: 'rest-apis',
+    name: 'REST APIs',
+    category: 'backend',
+    catLabel: 'Backend & Data',
+    level: 90,
+    icon: '🌐',
+    desc: 'RESTful API design, resource modeling & HTTP semantics',
+  },
+  {
+    id: 'websockets',
+    name: 'WebSockets',
+    category: 'backend',
+    catLabel: 'Backend & Data',
+    level: 78,
+    icon: '🔌',
+    desc: 'Full-duplex real-time communication & event-driven architectures',
+  },
 
-  // DevOps & Cloud (4)
+  // DevOps & Cloud (6)
   {
     id: 'docker',
     name: 'Docker',
@@ -206,8 +269,26 @@ export const SKILLS_DATA = [
     icon: '🔄',
     desc: 'Automated test suites, artifact packaging & deployment gates',
   },
+  {
+    id: 'fastapi-cloud',
+    name: 'FastAPI Cloud',
+    category: 'devops',
+    catLabel: 'DevOps & Cloud',
+    level: 88,
+    icon: '☁️',
+    desc: 'Serverless deployment & hosting for FastAPI backends',
+  },
+  {
+    id: 'huggingface',
+    name: 'Hugging Face',
+    category: 'devops',
+    catLabel: 'DevOps & Cloud',
+    level: 85,
+    icon: '🤗',
+    desc: 'Model hub, Spaces deployment & ML infrastructure',
+  },
 
-  // Frontend (5)
+  // Frontend (9)
   {
     id: 'typescript',
     name: 'TypeScript',
@@ -252,6 +333,42 @@ export const SKILLS_DATA = [
     level: 95,
     icon: '🎨',
     desc: 'Glassmorphism, custom properties, responsive grids & animations',
+  },
+  {
+    id: 'threejs',
+    name: 'Three.js',
+    category: 'frontend',
+    catLabel: 'Frontend',
+    level: 90,
+    icon: '🎯',
+    desc: 'WebGL 3D scenes, cameras, lighting & procedural animation',
+  },
+  {
+    id: 'webgl',
+    name: 'WebGL',
+    category: 'frontend',
+    catLabel: 'Frontend',
+    level: 85,
+    icon: '🖥️',
+    desc: 'Low-level GPU graphics rendering & shader programming',
+  },
+  {
+    id: 'gsap',
+    name: 'GSAP',
+    category: 'frontend',
+    catLabel: 'Frontend',
+    level: 88,
+    icon: '⚡',
+    desc: 'High-performance timeline-based animation & scroll-driven motion',
+  },
+  {
+    id: 'vite',
+    name: 'Vite',
+    category: 'frontend',
+    catLabel: 'Frontend',
+    level: 90,
+    icon: '⚡',
+    desc: 'Fast build tool, dev server & bundler for modern frontend apps',
   },
 
   // Tools & Workflow (4)
