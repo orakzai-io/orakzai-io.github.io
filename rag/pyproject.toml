@@ -1,8 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "botron-rag"
 version = "0.1.0"
 description = "BOTRON RAG backend — FastAPI + fastembed + Groq"
 requires-python = ">=3.11,<3.13"
+
+[tool.setuptools]
+py-modules = ["analytics", "knowledge", "main", "retriever"]
 
 [tool.fastapi]
 entrypoint = "main:app"
