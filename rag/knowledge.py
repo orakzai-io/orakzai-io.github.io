@@ -112,7 +112,7 @@ CHUNKS = [
     },
     {
         "id": "swimming_leadership",
-        "title": "Athletic Discipline — National Swimmer, IT Manager & Head Coach",
+        "title": "Athletic Discipline — National Swimmer & Technical Operations Lead",
         "category": "background",
         "content": (
             "Athletic Career & Technical Operations (Pakistan Swimming Federation):\n"
