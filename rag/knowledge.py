@@ -156,7 +156,7 @@ CHUNKS = [
             "schema-validated JSONL datasets for downstream AI and data pipelines.\n"
             "• Deployment: Deployed on a serverless cloud stack backed by a Neon PostgreSQL database, featuring a TypeScript "
             "UI with real-time polling that cut manual verification overhead by 90%.\n"
-            "• Code Repository: https://github.com/orakzai-io/Async-Web-Scraper.git"
+            "• Code Repository: https://github.com/orakzai-io/Async-Extraction-ETL-Engine.git"
         ),
     },
     {
