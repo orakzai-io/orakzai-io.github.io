@@ -22,15 +22,15 @@ CHUNKS = [
         "title": "Identity, Bio & Quick Facts",
         "category": "bio",
         "content": (
-            "Shahsawar Orakzai is a Full-Stack AI Engineer specializing in end-to-end production systems, "
-            "from RAG architectures and autonomous AI Agents to WebGL frontends and containerized backends. "
+            "Shahsawar Orakzai is an AI Engineer specializing in production RAG architectures, "
+            "autonomous multi-agent systems (LangGraph/LangChain), and high-concurrency FastAPI backends. "
             "He is a Computer Science undergraduate maintaining a perfect 4.0 CGPA at the University of Agriculture, Peshawar (UAP). "
-            "Currently self-employed on Freelancer.com (Feb 2026 – Present), delivering enterprise RAG assistants "
-            "and autonomous agentic workflows using Hermes and function-calling architectures. "
+            "Currently working as an AI Engineer (Contract) via Freelancer (Feb 2026 – Present), delivering enterprise RAG assistants "
+            "and autonomous agentic workflows using LangChain, open-source LLMs, and function-calling architectures. "
             "Beyond software engineering, he competed for a decade as a National Swimmer winning 10+ medals "
-            "(including Gold at National Junior Swimming Championships), and served as Technical Operations Lead "
+            "(including Gold at National Junior Swimming Championships), and served as Data and Automation Engineer "
             "for the Pakistan Swimming Federation (May 2024 – Sep 2025). He trains tactical foresight in competitive chess.\n"
-            "• Location: Peshawar, Pakistan\n"
+            "• Location: Pakistan (Remote / US & EU Timezone Alignment)\n"
             "• Email: shahsawar.dev@gmail.com\n"
             "• Phone: +92 343 8925150\n"
             "• Portfolio: https://orakzai-io.github.io\n"
@@ -51,7 +51,7 @@ CHUNKS = [
             "validation via Pydantic, low-latency query response, and cryptographic precision (e.g. zero-knowledge AES-256-GCM in VaultGuard).\n"
             "2. Fast Learner & Intellectual Curiosity: Maintains a perfect 4.0 CGPA at the University of Agriculture, Peshawar (UAP), "
             "earned dual Harvard University credentials (CS50x & CS50P), and rapidly self-masters state-of-the-art AI tooling "
-            "(Qdrant, pgvector, FastEmbed, Groq SLMs, LangChain, n8n).\n"
+            "(pgvector, FastEmbed, LangChain, LangGraph, Open-Source LLMs, n8n).\n"
             "3. Athletic Discipline & Execution Speed: Forged over a 10-year career as a competitive National Swimmer (10+ Medals, "
             "including Gold at National Junior Swimming Championships). Operates with elite stamina, laser focus, and composure under deadline pressure.\n"
             "4. Strategic Problem-Solving: Competitive chess player who approaches system design with tactical foresight, "
@@ -66,46 +66,46 @@ CHUNKS = [
             "Academic Credentials and Formal Certifications for Shahsawar Orakzai:\n"
             "1. Bachelor of Science in Computer Science (BSCS):\n"
             "   - Institution: University of Agriculture, Peshawar (UAP), Pakistan\n"
-            "   - Duration: October 2024 – Present\n"
+            "   - Duration: Expected 2028\n"
             "   - Academic Performance: Perfect 4.0 CGPA\n"
             "   - Core Coursework: Programming Fundamentals, Data Structures & Algorithms (DSA), "
             "Object-Oriented Programming (OOP), Database Systems, System Design.\n"
-            "2. Harvard University CS50x: Introduction to Computer Science\n"
-            "   - Issued: February 2026 (Remote)\n"
+            "2. Harvard University CS50x: Computer Science\n"
+            "   - Status: Verified Credential (Remote)\n"
             "   - Verification URL: https://certificates.cs50.io/46d6924e-c5e2-49f5-8639-90d52ebb90d1.pdf\n"
             "   - Focus: C, memory allocation, pointers, algorithmic complexity, data structures, and computer science foundations.\n"
-            "3. Harvard University CS50P: Introduction to Programming with Python\n"
-            "   - Issued: October 2025 (Remote)\n"
+            "3. Harvard University CS50P: Programming with Python\n"
+            "   - Status: Verified Credential (Remote)\n"
             "   - Verification URL: https://certificates.cs50.io/9847b334-9e42-4281-a696-a6e5cc35b008.pdf\n"
             "   - Focus: Advanced Python programming, OOP, functional paradigms, error handling, regex, and unit testing."
         ),
     },
     {
         "id": "experience_freelance",
-        "title": "Work Experience — Independent Full-Stack AI Engineer",
+        "title": "Work Experience — AI Engineer (Contract)",
         "category": "experience",
         "content": (
-            "Role: Full-Stack AI Engineer (Self-Employed / Freelancer.com / Remote)\n"
+            "Role: AI Engineer (Contract / Freelancer / Remote)\n"
             "Timeline: Feb 2026 – Present\n"
             "Key Deliverables & Engineering Metrics:\n"
             "• Delivered enterprise RAG assistants and document retrieval systems for business clients with FastAPI/pgvector backends "
             "and responsive TypeScript frontends, cutting manual inquiry response times by ~65%.\n"
-            "• Orchestrated autonomous agentic workflows using Hermes and function-calling architectures with persistent memory "
-            "and external tool integration, automating multi-step operational processes.\n"
+            "• Orchestrated autonomous agentic workflows using LangChain, open-source LLMs, and function-calling architectures with persistent memory "
+            "and external tool integration, eliminating manual intervention across multi-step operational processes for multiple clients.\n"
             "• Architected scalable FastAPI backends, vector databases (pgvector), and modern TypeScript user interfaces."
         ),
     },
     {
         "id": "experience_mindgigs",
-        "title": "Work Experience — Python Developer Intern at MINDGIGS",
+        "title": "Work Experience — Python Engineer at MINDGIGS",
         "category": "experience",
         "content": (
-            "Role: Python Developer Intern at MINDGIGS (Peshawar, Pakistan)\n"
+            "Role: Python Engineer at MINDGIGS (Hybrid)\n"
             "Timeline: December 2025 – February 2026\n"
             "Key Contributions & Engineering Metrics:\n"
             "• Engineered high-throughput RESTful APIs using FastAPI and asyncio, boosting API request throughput by approximately 40% "
             "while enforcing strict runtime data validation via Pydantic schemas.\n"
-            "• Integrated local Small Language Models (SLMs) for on-premise text extraction and summarization tasks without external API latency.\n"
+            "• Integrated locally-hosted open-source LLMs for on-premise text extraction and summarization tasks without external API latency.\n"
             "• Built and containerized distributed data scraping pipelines with Docker, successfully processing 20,000+ records daily with "
             "automated error retries and PostgreSQL ingestion."
         ),
@@ -116,12 +116,12 @@ CHUNKS = [
         "category": "background",
         "content": (
             "Athletic Career & Technical Operations (Pakistan Swimming Federation):\n"
-            "• 10 Years as a National Swimmer: Competed on starting blocks representing KP province across Pakistan for a full decade. "
+            "• 10 Years as a National Swimmer: Competed representing the provincial swim team across Pakistan for a full decade. "
             "Won 10+ provincial and national medals, including a Gold Medal at the National Junior Swimming Championships.\n"
-            "• Technical Operations Lead (Part-Time, May 2024 – Sep 2025): Designed and deployed a centralized management information "
-            "system for 200+ registered athletes, replacing paper-based records with a searchable database. Served as technical lead "
-            "managing official entries for 30+ provincial swimmers across district and national championships, automating administrative "
-            "workflows using Python and Excel.\n"
+            "• Data and Automation Engineer (May 2024 – Sep 2025): Designed and deployed a Python-based MIS for "
+            "200+ registered athletes, serving as sole technical owner and replacing paper-based records with a searchable relational database. "
+            "Automated administrative workflows using Python and relational schemas, eliminating manual data entry for 30+ provincial swimmers "
+            "across district and national championships.\n"
             "• Engineering Philosophy: Views software performance through the lens of competitive swimming, obsessing over hundredths "
             "of a second, latency, continuous discipline, and high-pressure execution."
         ),
@@ -139,25 +139,24 @@ CHUNKS = [
             "user conversion, onboarding 30+ active users.\n"
             "• DevOps: Fully containerized with multi-stage Docker builds. Automated GitHub Actions CI/CD pipeline building and "
             "deploying in under 3 minutes.\n"
-            "• Code Repository: https://github.com/orakzai-io/Rednote.git\n"
-            "• Live Production Demo: https://orakzai-io-rednote.hf.space"
+            "• Code Repository: https://github.com/orakzai-io/Rednote.git"
         ),
     },
     {
         "id": "project_scraper_detail",
-        "title": "Project Deep-Dive — Async Web Scraper & Groq LLM Pipeline",
+        "title": "Project Deep-Dive — Async Extraction & ETL Engine",
         "category": "projects",
         "content": (
-            "Async Web Scraper & Intelligence Ingestion Pipeline (April 2026):\n"
-            "• Core Problem: High-volume web scraping frequently suffers from Cloudflare bot detection, rate-limiting, and unstructured schemas.\n"
-            "• Architecture & Tech Stack: Python, curl_cffi (browser TLS impersonation), Neon PostgreSQL, TypeScript, Groq LLM, Docker.\n"
-            "• Throughput & Reliability: Engineered an async scraping engine concurrently scraping 30+ raw web pages in parallel. "
-            "Architected an 8+ Groq LLM rotation pool with adaptive rate-limiting and automatic failover, structuring raw HTML into "
-            "downloadable JSONL datasets for model fine-tuning.\n"
-            "• Deployment: Deployed live on Hugging Face Spaces backed by a serverless Neon PostgreSQL database, featuring a TypeScript "
-            "UI with 3s interval polling that cut manual verification overhead by 90%.\n"
-            "• Code Repository: https://github.com/orakzai-io/Async-Web-Scraper.git\n"
-            "• Live Production Demo: https://orakzai-io-async-web-scraper.hf.space"
+            "Async Extraction & ETL Engine:\n"
+            "• Core Problem: High-volume web data extraction suffers from Cloudflare bot management defenses, rate-limiting, and unstructured schemas.\n"
+            "• Architecture & Tech Stack: Python, curl_cffi (browser TLS fingerprint impersonation), Neon PostgreSQL, TypeScript, LLM APIs, Docker.\n"
+            "• Throughput & Reliability: Engineered an async extraction engine concurrently scraping 30+ web pages in parallel, navigating "
+            "Cloudflare bot management defenses via browser TLS fingerprint impersonation. "
+            "Architected an 8+ LLM API rotation pool with adaptive rate-limiting and automatic failover, structuring raw HTML into "
+            "schema-validated JSONL datasets for downstream AI and data pipelines.\n"
+            "• Deployment: Deployed on a serverless cloud stack backed by a Neon PostgreSQL database, featuring a TypeScript "
+            "UI with real-time polling that cut manual verification overhead by 90%.\n"
+            "• Code Repository: https://github.com/orakzai-io/Async-Web-Scraper.git"
         ),
     },
     {
@@ -181,17 +180,18 @@ CHUNKS = [
         "title": "Project Deep-Dive — 3D Cyber-Mech Portfolio & BOTRON AI Assistant",
         "category": "projects",
                 "content": (
-            "3D Portfolio with RAG Chatbot — BOTRON (Oct 2026):\n"
-            "• Concept & Vision: A scroll-driven WebGL portfolio featuring a 3D robot with inverse-kinematics gaze tracking "
+            "BOTRON (RAG Chatbot & 3D Web App):\n"
+            "• Concept & Vision: An interactive, scroll-driven WebGL application featuring 3D inverse-kinematics gaze tracking "
             "and adaptive frame rates (60/30/0 FPS), deployed on GitHub Pages. Pre-launch content reached 50,000+ impressions "
             "and 500+ likes on LinkedIn.\n"
             "• 3D & Graphics Engine: Custom Three.js stage, PMREM environment lighting, procedural room reflection, mathematical "
             "3D spherical skills globe rendered on 2D canvas with zero WebGL context overhead.\n"
             "• Choreography & Performance: Lenis smooth-scroll engine synchronized with a GSAP ScrollTrigger ticker. Render loop "
             "targets 60 FPS during active scroll, throttles to 30 FPS when idle.\n"
-            "• AI Assistant (BOTRON): Full RAG chatbot with FastEmbed vector search over 16 knowledge chunks, a minimum-similarity "
-            "floor to prevent hallucinations, and 3-model Groq failover. Backend deployed on FastAPI Cloud. Connected Supabase to "
-            "capture and analyze all user queries for data-driven content improvements.\n"
+            "• AI Assistant (BOTRON): Production RAG chatbot achieving 95%+ retrieval accuracy across a 100+ question evaluation dataset, "
+            "with FastEmbed semantic search, similarity-floor hallucination prevention, and 3-model LLM failover with cloud-hosted backend. "
+            "Integrated Supabase for real-time telemetry and query logging, tracking user interaction patterns to continuously optimize "
+            "prompt relevance and system latency.\n"
             "• Code Repository: https://github.com/orakzai-io/Personal-Portfolio.git\n"
             "• Live Website: https://orakzai-io.github.io"
         ),
@@ -204,9 +204,9 @@ CHUNKS = [
             "Comprehensive AI & LLM Technical Competencies:\n"
             "• RAG Systems: Dense semantic vector search, recursive semantic chunking, hybrid keyword-vector retrieval, and optimized query response times.\n"
             "• Vector Databases & Indexes: pgvector (IVFFlat and HNSW indexing in PostgreSQL), Qdrant, ChromaDB, FastEmbed.\n"
-            "• LLM APIs & Frameworks: Groq Cloud API (Llama, Qwen, GPT-OSS), OpenAI API (GPT-4o, o1, o3-mini), LangChain, LangSmith (observability & tracing).\n"
-            "• Autonomous Agents: Multi-agent orchestration, state loops, tool-calling pipelines, structured Pydantic outputs, system guardrails. "
-            "Hermes agentic workflow orchestration with persistent memory and external tool integration.\n"
+            "• LLM APIs & Frameworks: LLM APIs (OpenAI, Anthropic, open-source providers), LangChain, LangGraph, LangSmith (observability & tracing), n8n AI Workflows.\n"
+            "• Autonomous Agents: Multi-agent orchestration with LangGraph, state loops, tool-calling pipelines, structured Pydantic outputs, system guardrails. "
+            "Agentic workflow orchestration with persistent memory and external tool integration.\n"
             "• Prompt Engineering: Few-shot elicitation, system persona architecture, structured JSON schemas, hallucination suppression.\n"
             "• Local SLMs: Open-Source LLMs and quantized models deployed on CPU edge environments.\n"
             "• Vector Retrieval: FastEmbed (BAAI/bge-small-en-v1.5) dense embeddings for semantic search and vector retrieval."
@@ -221,7 +221,7 @@ CHUNKS = [
             "• Core Languages: Python (Asyncio, OOP, high concurrency, algorithms), TypeScript, JavaScript (ES6+), C / C++ (memory management, data structures), SQL, Bash.\n"
             "• Backend Frameworks: FastAPI, Pydantic (data validation, strict serialization), SQLAlchemy (async ORM, connection pooling), RESTful API design, WebSockets.\n"
             "• Databases: PostgreSQL (complex indexing, CTEs, relational modeling, pgvector), SQLite, Neon PostgreSQL (serverless Postgres), Supabase (Backend-as-a-Service).\n"
-            "• DevOps & Cloud: Docker (multi-stage lightweight builds), Docker Compose, GitHub Actions (automated CI/CD deploying under 3 mins), Git, Linux/POSIX Bash, Hugging Face Spaces, FastAPI Cloud (serverless FastAPI deployment), Vercel, Cloudflare."
+            "• DevOps & Cloud: Docker (multi-stage lightweight builds), Docker Compose, GitHub Actions (automated CI/CD deploying under 3 mins), Git, Linux/POSIX Bash, Cloud Platforms, Vercel, Cloudflare."
         ),
     },
     {
@@ -257,8 +257,8 @@ CHUNKS = [
         "category": "contact",
         "content": (
             "How to Reach Shahsawar Orakzai & Availability:\n"
-            "• Available Roles: Open to Full-Stack AI Engineer positions, RAG & Vector Systems Consulting, and Autonomous Agent Development. "
-            "Currently accepting freelance contracts via Freelancer.com.\n"
+            "• Available Roles: Open to AI Engineer & Applied AI roles, RAG & Vector Systems Consulting, and Autonomous Agent Development. "
+            "Available for select remote contracts and consulting (US & EU timezone alignment).\n"
             "• Email: shahsawar.dev@gmail.com | shaso@orakzai.io\n"
             "• Phone: +92 343 8925150\n"
             "• Direct Message Form: Available on portfolio via Formspree (https://formspree.io/f/meevnwzk)\n"
